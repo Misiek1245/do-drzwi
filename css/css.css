@@ -1,3 +1,12 @@
-
+@charset "UTF-8";
+body {
+  background-image: url(/img/door.png);
+  background-size: 512px 512px; /* powiększenie */
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  background-position: center top;
+  margin-top: 200px;
+  text-align: center;
+}
 
 /*# sourceMappingURL=css.css.map */
