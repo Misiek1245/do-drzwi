@@ -1,6 +1,7 @@
 "use strict";
 console.log("test");
-function nrm() {
+function nrm(event) {
+    event.preventDefault();
     const input = document.getElementById("numb");
     const output = document.getElementById("nrm");
     if (input && output) {
