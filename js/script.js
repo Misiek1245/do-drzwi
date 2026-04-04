@@ -1,4 +1,10 @@
 "use strict";
 console.log("test");
-let x;
-document.getElementById("numb").innerText = x;
+function nrm() {
+    const input = document.getElementById("numb");
+    const output = document.getElementById("nrm");
+    if (input && output) {
+        const x = input.value;
+        output.innerText = x;
+    }
+}
