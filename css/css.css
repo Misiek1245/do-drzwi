@@ -8,5 +8,12 @@ body {
   margin-top: 160px;
   text-align: center;
 }
+body [id^=but] {
+  text-align: center;
+  margin-top: 400px;
+  margin: 300px 80px 0;
+  padding: 20px 50px;
+  display: block-inline;
+}
 
 /*# sourceMappingURL=css.css.map */
