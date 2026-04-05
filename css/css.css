@@ -1,7 +1,6 @@
-@charset "UTF-8";
 body {
   background-image: url(../img/door.png);
-  background-size: 512px 512px; /* powiększenie */
+  background-size: contain;
   background-repeat: no-repeat;
   image-rendering: pixelated;
   background-position: center top;
@@ -12,7 +11,7 @@ body [id^=but] {
   text-align: center;
   margin: 40vh 7vw 0;
   padding: 20px 50px;
-  display: block-inline;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=css.css.map */
