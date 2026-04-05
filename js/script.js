@@ -3,6 +3,7 @@ console.log("test");
 console.log("x");
 let x = 0;
 const output = document.getElementById("nrm");
+//numer main
 function nrm(event) {
     event.preventDefault();
     const input = document.getElementById("numb");
@@ -12,6 +13,7 @@ function nrm(event) {
         console.log(x);
     }
 }
+// change number
 function chgn(n) {
     x = x + n;
     output.textContent = x.toString();
