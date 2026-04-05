@@ -4,6 +4,9 @@ console.log("x");
 let x = 0;
 let multi = 1;
 const numbers = [];
+const main1 = document.getElementById("main1");
+const main2 = document.getElementById("main2");
+let result = document.getElementById("result");
 const output = document.getElementById("nrm");
 function sort() {
     const imgg = document.querySelector("#sort img");
@@ -28,15 +31,32 @@ function nrm(event) {
         console.log(x);
     }
 }
-// change number
+function addn() {
+    numbers[x] = x;
+    x = x + multi;
+    output.textContent = x.toString();
+    console.log(numbers);
+}
 function chgn(n) {
-    x = x + n * multi;
+    x = x + n;
     output.textContent = x.toString();
     console.log(x);
 }
 function deln() {
     numbers[x] = 0;
+    x = x + multi;
+    output.textContent = x.toString();
+    console.log(numbers);
 }
 function c() {
     location.reload();
+}
+function end() {
+    main1.style.display = "none";
+    main2.style.display = "flex";
+    for (let index = 0; index <= numbers.length; index++) {
+        if (numbers[index] != 0 && numbers[index] != undefined) {
+            result.textContent += numbers[index] + " ,";
+        }
+    }
 }

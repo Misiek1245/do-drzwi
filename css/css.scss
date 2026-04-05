@@ -1,26 +1,45 @@
 body{
-  background-image: url(../img/door.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-  margin-top: 161px; 
-  text-align: center;
-    input{
-      font-size: 17px;
-      margin-bottom: 39vh;
-    }
-    div{
-      display: inline-block;
-      [id^="but"]{
-        text-align: center;
-        -webkit-appearance: none;
-        appearance: none;
-        padding: 3vh 50px;
-        margin: 3px;
-         &#butc{
-           text-align: center;
-            padding: 3vh 9vw;
+    background-image: url(../img/door.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 161px; 
+    text-align: center;
+     input{
+        font-size: 17px;
+        margin-bottom: 39vh;
+      }
+      div{
+        &#main2{
+            div{
+              position: fixed;
+              top: 0;
+              right: 0;
+              font-size: 300%;
+              margin-top: -70px;
+            }
+          display: none;
+          position: fixed; 
+          top:0;
+          left:0;
+          width: 100vw;
+          height: 100vh;
+          background-color: rgb(255,255,0);
+          justify-content: center;
+          align-items: center;
+        }
+        z-index: 1;
+        display: inline-block;
+        [id^="but"]{
+          text-align: center;
+          -webkit-appearance: none;
+          appearance: none;
+          padding: 3vh 50px;
+          margin: 3px;
+           &#butc{
+             text-align: center;
+              padding: 3vh 9vw;
+            }
           }
         }
       }
-  } 

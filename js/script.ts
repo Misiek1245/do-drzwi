@@ -2,7 +2,10 @@ console.log("test")
 console.log("x")
 let x: number = 0; 
 let multi: number =1
-const numbers :number[] = []
+const numbers :number[] = [];
+const main1 = document.getElementById("main1")!
+const main2 = document.getElementById("main2")!
+let result = document.getElementById("result")!
 const output = document.getElementById("nrm")!
 function sort(){
 	const imgg = document.querySelector("#sort img") as HTMLImageElement | null
@@ -25,15 +28,33 @@ function nrm(event: Event){
 		console.log(x)
 	}
 }
-// change number
+function addn(){
+	numbers[x] = x
+	x = x + multi
+	output.textContent = x.toString()
+	console.log(numbers)
+}
 function chgn(n :number){
-	x = x + n*multi
+	x = x + n
 	output.textContent = x.toString()
 	console.log(x)
 }
 function deln() {
 	numbers[x] = 0	
+	x = x + multi
+	output.textContent = x.toString()
+	console.log(numbers)
 }
 function c() {
 	location.reload()
+}
+function end(){
+	main1.style.display = "none";
+	main2.style.display = "flex";
+	for (let index = 0; index <= numbers.length; index++) {
+		if(numbers[index] != 0 && numbers[index] != undefined){
+			result.textContent +=  numbers[index] + " ,"
+		}
+		
+	}
 }

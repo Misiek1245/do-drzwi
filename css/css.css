@@ -10,7 +10,26 @@ body input {
   font-size: 17px;
   margin-bottom: 39vh;
 }
+body div#main2 div {
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 300%;
+  margin-top: -70px;
+}
+body div#main2 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 0);
+  justify-content: center;
+  align-items: center;
+}
 body div {
+  z-index: 1;
   display: inline-block;
 }
 body div [id^=but] {
