@@ -56,7 +56,7 @@ function end() {
     main2.style.display = "flex";
     for (let index = 0; index <= numbers.length; index++) {
         if (numbers[index] != 0 && numbers[index] != undefined) {
-            result.textContent += numbers[index] + " ,";
+            result.textContent += numbers[index] + " , ";
         }
     }
 }

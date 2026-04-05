@@ -13,9 +13,9 @@ body input {
 body div#main2 div {
   position: fixed;
   top: 0;
-  right: 0;
+  right: 20px;
   font-size: 300%;
-  margin-top: -70px;
+  margin-top: -50px;
 }
 body div#main2 {
   display: none;
