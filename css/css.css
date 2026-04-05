@@ -1,6 +1,6 @@
 body {
   background-image: url(../img/door.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   image-rendering: pixelated;
   background-position: center top;
