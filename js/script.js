@@ -10,11 +10,11 @@ function sort() {
     if (!imgg)
         return;
     if (multi == 1) {
-        imgg.src = "../img/sort-up.png";
+        imgg.src = "img/sort-up.png";
         multi = -1;
     }
     else {
-        imgg.src = "../img/sort-down.png";
+        imgg.src = "img/sort-down.png";
         multi = 1;
     }
 }
