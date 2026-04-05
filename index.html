@@ -11,8 +11,17 @@
 		<form onsubmit="nrm(event)">
 			<input id ="numb" type="text" placeholder="">
 		</form>
-		<button type="button" id="but1" onclick=chgn(-1)> < </button>
-		<button type="button" id="but2" onclick=chgn(1)> > </button>
+		<button type="" id="sort" onclick=sort()><img src="img/sort-down.png" alt=""></button>
+		<div>	
+			<button type="button" id="butx" onclick=chgn(1)> x </button>
+			<button type="button" id="butc" onclick=end()> end </button>
+			<button type="button" id="buty" onclick=deln()> y </button>
+		</div>
+		<div>
+			<button type="button" id="but1" onclick=chgn(-1)> < </button>
+			<button type="button" id="butc" onclick=c()>clear </button>
+			<button type="button" id="but2" onclick=chgn(1)> > </button>
+		</div>
 		<script src="js/script.js"></script>
 	</body>
 </html>

@@ -3,14 +3,26 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-  margin-top: 160px;
+  margin-top: 161px;
   text-align: center;
 }
-body [id^=but] {
-  text-align: center;
-  margin: 40vh 7vw 0;
-  padding: 20px 50px;
+body input {
+  font-size: 17px;
+  margin-bottom: 39vh;
+}
+body div {
   display: inline-block;
+}
+body div [id^=but] {
+  text-align: center;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 3vh 50px;
+  margin: 3px;
+}
+body div [id^=but]#butc {
+  text-align: center;
+  padding: 3vh 9vw;
 }
 
 /*# sourceMappingURL=css.css.map */
