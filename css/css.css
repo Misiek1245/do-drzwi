@@ -10,8 +10,7 @@ body {
 }
 body [id^=but] {
   text-align: center;
-  margin-top: 400px;
-  margin: 300px 80px 0;
+  margin: 40vh 7vw 0;
   padding: 20px 50px;
   display: block-inline;
 }
