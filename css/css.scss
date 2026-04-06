@@ -1,13 +1,19 @@
+@mixin colors($R, $G, $B){
+  background-color: rgba($R,$G,$B, 0.3);
+  border-color: rgba($R,$G,$B, 0.6);
+  color: rgba($R,$G,$B, 1);
+}
+
 body{
     background-image: url(../img/door.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    margin-top: 161px; 
+    margin-top: 110px; 
     text-align: center;
      input{
         font-size: 17px;
-        margin-bottom: 39vh;
+        margin-bottom: 37vh;
       }
       div{
         &#main2{
@@ -36,10 +42,17 @@ body{
           appearance: none;
           padding: 3vh 50px;
           margin: 3px;
+          font-size: 13px;
            &#butc{
              text-align: center;
               padding: 3vh 9vw;
             }
+          &#buty{
+            @include colors(73,222,33)
+          }
+          &#butx{
+            @include colors(232, 23, 16);
           }
         }
       }
+    }
