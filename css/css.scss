@@ -13,9 +13,12 @@ body{
     text-align: center;
      input{
         font-size: 17px;
-        margin-bottom: 37vh;
+        margin-bottom: 33vh;
       }
       div{
+        &#main1{
+        width: 93vw;
+        }
         &#main2{
             div{
               position: fixed;
@@ -40,7 +43,7 @@ body{
           text-align: center;
           -webkit-appearance: none;
           appearance: none;
-          padding: 3vh 50px;
+          padding: 3vh 9vw;
           margin: 3px;
           font-size: 13px;
            &#butc{

@@ -8,7 +8,10 @@ body {
 }
 body input {
   font-size: 17px;
-  margin-bottom: 37vh;
+  margin-bottom: 33vh;
+}
+body div#main1 {
+  width: 93vw;
 }
 body div#main2 div {
   position: fixed;
@@ -36,7 +39,7 @@ body div [id^=but] {
   text-align: center;
   -webkit-appearance: none;
   appearance: none;
-  padding: 3vh 50px;
+  padding: 3vh 9vw;
   margin: 3px;
   font-size: 13px;
 }
